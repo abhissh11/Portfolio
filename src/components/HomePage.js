@@ -44,9 +44,9 @@ export default function HomePage() {
         <motion.div
           className="hidden md:inline"
           whileHover={{ scale: 1.1 }}
-          initial={{ y: "-100vh" }}
-          animate={{ y: 0 }}
-          transition={{ duration: 1 }}
+          initial={{ x: "100vw" }}
+          animate={{ x: 0 }}
+          transition={{ duration: 1.2 }}
         >
           <img
             src="https://cdn.dribbble.com/users/1675281/screenshots/15396018/media/9cba0d19ccaee8ee821822f1e86f1f36.gif"

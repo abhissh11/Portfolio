@@ -1,11 +1,18 @@
+"use client";
 import { Code } from "lucide-react";
 import Link from "next/link";
 import React from "react";
+import { motion } from "framer-motion";
 
 export default function Header() {
   return (
     <>
-      <div className="px-2 py-1 mt-4 text-2xl flex justify-around shadow-md md:shadow-none">
+      <motion.div
+        className="px-2 py-1 mt-4 text-2xl flex justify-around shadow-md md:shadow-none"
+        initial={{ y: "-100vh" }}
+        animate={{ y: 0 }}
+        transition={{ duration: 1 }}
+      >
         <div className=" flex justify-around items-center gap-2 md:gap-10 ">
           <h2 className="px-4 py-1 rounded-full hover:bg-sky-900 hover:cursor-pointer hover:scale-105 transition-all">
             <Code />
@@ -22,7 +29,7 @@ export default function Header() {
             CV
           </Link>
         </div>
-      </div>
+      </motion.div>
     </>
   );
 }
