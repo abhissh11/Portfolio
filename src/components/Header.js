@@ -18,9 +18,6 @@ export default function Header() {
             <Code />
           </h2>
           <h2 className="px-4 py-1 rounded-full hover:bg-sky-900 hover:cursor-pointer hover:scale-105">
-            projects
-          </h2>
-          <h2 className="px-4 py-1 rounded-full hover:bg-sky-900 hover:cursor-pointer hover:scale-105">
             blogs
           </h2>
         </div>

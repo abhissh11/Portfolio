@@ -7,10 +7,7 @@ export default function About() {
   const inView = useInView(ref, { once: true });
   return (
     <>
-      <div className="mt-5 mx-5">
-        <h2 className="text-2xl font-bold tracking-wider text-center my-10 underline">
-          about
-        </h2>
+      <div className="mt-10 mx-5">
         <div className="flex flex-col md:flex-row gap-10  justify-around items-center">
           <motion.div
             className=""
