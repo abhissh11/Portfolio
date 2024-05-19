@@ -1,6 +1,7 @@
 "use client";
 import { motion, useInView } from "framer-motion";
 import { ExternalLinkIcon, Github } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import React, { useRef } from "react";
 
@@ -31,12 +32,12 @@ export default function ProjectCard({
             <div className="text-sky-300 flex justify-between items-center">
               <h1 className=" text-3xl">{title}</h1>
               <div className="flex gap-4">
-                <div className="">
+                <div className="hover:bg-fuchsia-600 rounded-lg">
                   <Link href={gitHub}>
                     <Github />
                   </Link>
                 </div>
-                <div className="">
+                <div className="hover:bg-fuchsia-600 rounded-lg">
                   <Link href={liveLink}>
                     <ExternalLinkIcon />
                   </Link>

@@ -3,7 +3,7 @@
     {
       "projectName": "BlogSphere",
       "projectId": "1",
-      "projectImg": "https://media.sproutsocial.com/uploads/2017/01/Instagram-Post-Ideas.png",
+      "projectImg": "/bw-sphere.png",
       "projectGithubLink": "https://github.com/dev-abhishekkr/BlogSphere",
       "liveLink": "https://blogsphere-h6tw.onrender.com/",
       "techStack": ["ReactJS, NodeJS, ExpressJS, MongoDB,Tailwind CSS,"],
@@ -12,7 +12,7 @@
     {
       "projectName": "CareSphere",
       "projectId": "2",
-      "projectImg": "https://media.sproutsocial.com/uploads/2017/01/Instagram-Post-Ideas.png",
+      "projectImg": "/c-sphere.png",
       "projectGithubLink": "https://github.com/dev-abhishekkr/CareSphere",
       "liveLink": "https://caresphere.vercel.app/",
       "techStack": ["ReactJS, NextJS, Tailwind CSS, Stripe"],
@@ -21,7 +21,7 @@
     {
       "projectName": "MusicAcademy",
       "projectId": "3",
-      "projectImg": "https://media.sproutsocial.com/uploads/2017/01/Instagram-Post-Ideas.png",
+      "projectImg": "m-sphere.png",
       "projectGithubLink": "https://github.com/dev-abhishekkr/MusicAcad-NextJS",
       "liveLink": "https://music-acad-next-js.vercel.app/",
       "techStack": ["ReactJS, NextJS, Tailwind CSS, Acertainity UI"],
