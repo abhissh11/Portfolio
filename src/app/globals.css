@@ -8,10 +8,10 @@
 
 html,
 body{
-    /* background-color: rgb(30 27 75); */
-    background-color: #111827;
-    /* color: rgb(192 38 211); */
-    color: #e879f9;
+    /* background-color: #111827; */
+    /* background-color: black; */
+    @apply bg-gradient-to-r from-black to-indigo-950 min-h-screen;
+    color: #c026d3;
 }
 h1{
     @apply text-4xl;

@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <>
       <motion.div
-        className="px-2 py-1 mt-4 text-2xl flex justify-around shadow-md md:shadow-none"
+        className="px-2 py-1 mt-4 text-2xl  flex justify-around shadow-md md:shadow-none"
         initial={{ y: "-100vh" }}
         animate={{ y: 0 }}
         transition={{ duration: 1 }}
@@ -27,7 +27,7 @@ export default function Header() {
         </div>
         <div className="bg-slate-700 p-1 font-bold rounded-full hover:bg-sky-800">
           <Link
-            href="https://drive.google.com/file/d/1C28HQtz24dk1eSjL3u2j-vgroazD2ufN/view"
+            href="https://drive.google.com/file/d/1uhQVXd1yA_-hLu5iYZQ5VATtzp4fPohy/view"
             target="_blank"
           >
             <motion.button

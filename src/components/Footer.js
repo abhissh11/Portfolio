@@ -26,7 +26,7 @@ export default function Footer() {
               <Mail />
             </div>
           </Link>
-          <Link href="https://twitter.com/firstofmirage" target="_blank">
+          <Link href="https://x.com/dev_abhishekkr" target="_blank">
             <div>
               <Twitter />
             </div>

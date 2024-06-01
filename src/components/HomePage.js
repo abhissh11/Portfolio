@@ -9,7 +9,7 @@ export default function HomePage() {
   const inView = useInView(ref, { once: true });
   return (
     <>
-      <div className="flex justify-around mt-10 mx-5">
+      <div className="flex justify-around mt-10 mx-5  ">
         <motion.div
           className=" flex flex-col gap-3"
           ref={ref}
@@ -35,7 +35,7 @@ export default function HomePage() {
           </h2>
           <p className="text-2xl font-semibold tracking-wider">
             Transforming <span className="text-emerald-300">entropy</span> into
-            <span className="text-emerald-300"> realities.</span>
+            <span className="text-emerald-300"> code </span> realities.
           </p>
           <div className="flex gap-8 mt-5 text-yellow-500">
             <Link href="https://github.com/dev-abhishekkr" target="_blank">
@@ -56,7 +56,7 @@ export default function HomePage() {
                 <Mail />
               </div>
             </Link>
-            <Link href="https://twitter.com/firstofmirage" target="_blank">
+            <Link href="https://x.com/dev_abhishekkr" target="_blank">
               <div>
                 <Twitter />
               </div>
@@ -67,7 +67,10 @@ export default function HomePage() {
          text-sky-300 border border-r-4 border-b-4 border-indigo-900 border-r-emerald-400 border-b-emerald-400 
           rounded-lg hover:scale-125 transition-all "
           >
-            <Link href="https://drive.google.com/file/d/1C28HQtz24dk1eSjL3u2j-vgroazD2ufN/view">
+            <Link
+              href="https://drive.google.com/file/d/1uhQVXd1yA_-hLu5iYZQ5VATtzp4fPohy/view"
+              target="_blank"
+            >
               <h1 className="text-xl">Download Resume</h1>
             </Link>
             <Download />
